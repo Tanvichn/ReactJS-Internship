@@ -6,7 +6,7 @@ const NavBar = () => {
     <nav className="bg-gradient-to-r from-blue-200  to-pink-200 shadow-md p-4 flex justify-between items-center ">
    
     {/* hospital tags */}
-    <div className="w-full flex flex-col bg-gradient-to-r from-blue-50 to-purple-100  rounded-full">
+    <div className="w-full flex flex-col bg-gradient-to-r from-blue-50 to-purple-100  rounded-lg">
    
     <div className="mt-6 max-w-6xl px-7">
     <div className="flex space-x-4">
@@ -31,7 +31,7 @@ const NavBar = () => {
     
     </div> 
     <div className="flex ">
-      <button className="flex w-44  px-2  py-3 bg-green-500 text-white rounded-full">
+      <button className="flex w-44  px-2  py-3 bg-green-500 text-white rounded-lg">
         + Add / Update User
       </button>
     </div>
