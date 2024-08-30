@@ -2,9 +2,9 @@ import React from 'react';
 
 function Sidebar() {
   return (
-    <div className='w-64 h-screen p-5 pt-10 pl-10 overflow-hidden'>
+    <div className='w-64 p-5 pt-10 pl-10 overflow-hidden'>
     
-    <div className="h-screen w-max p-6 pt-3 shadow-md bg-gradient-to-r from-blue-50 to-purple-100 rounded-lg">
+    <div className="h-3/4 w-max p-6 pt-3 shadow-md bg-gradient-to-r from-blue-50 to-purple-100 rounded-lg">
       <div className="flex justify-between items-center mb-5">
         <h2 className="text-lg font-bold">Filters</h2>
         <button className="text-blue-500 font-medium hover:underline">Clear All</button>
