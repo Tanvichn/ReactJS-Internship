@@ -21,7 +21,7 @@ function MainContent() {
     {/* Add padding to top from navbar */}
     <div className="mt-11 w-full  px-4">
       {/* Container for the search bar */}
-      <div className="bg-gradient-to-r from-blue-50 to-purple-100 p-4 rounded-lg shadow-lg ">
+      <div className="bg-gradient-to-r from-blue-50 to-purple-100 p-4 rounded-full shadow-lg ">
         <SearchBar placeholder="Search for hospitals..." /> {/* Search bar at the top */}
       </div>
     </div>
